@@ -2,7 +2,7 @@ import paramiko
 import getpass
 import time
 
-HOST = 'IP address of nodegrid'
+HOST = input('IP address of nodegrid= ')
 user = input("username= ")
 password = getpass.getpass("Pass= ")
 
